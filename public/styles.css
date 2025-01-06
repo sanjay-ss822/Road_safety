@@ -1,0 +1,46 @@
+body {
+    background-image: url('images/images.jpg'); /* Update with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #333; /* Sets a default text color */
+    font-family: Arial, sans-serif; /* Sets a clean font */
+}
+
+header {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+footer {
+    background-color: #343a40; /* Bootstrap dark color */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.form-control, .form-control-file {
+    border-radius: 0.25rem; /* Rounded corners for inputs */
+}
+
+.btn-success {
+    background-color: #28a745; /* Bootstrap success color */
+    border: none; /* Remove border */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.list-group-item {
+    margin: 10px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100px; /* Set a max width for images */
+    margin-left: 10px; /* Add some space between text and image */
+}
