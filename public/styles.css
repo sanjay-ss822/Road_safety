@@ -16,7 +16,7 @@ flex-direction: column;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    space-between;
+    /* space-between; */
       align-items: center;
 
 }
@@ -35,6 +35,7 @@ flex-direction: column;
 }
 
 .hero {
+    height: 80vh;
     text-align: center;
     padding: 80px 20px ;
     background-image: url(/1736573325078.jpg);
@@ -76,3 +77,15 @@ flex-direction: column;
 
 }
 
+
+/* .banner-inner{
+    padding-left: 150px;
+} */
+ .banner-inner h1{
+    padding-left: 150px;
+ }
+ .banner-inner p{
+    padding-left: 150px;
+ }.banner-inner button{
+    margin-left: 110px;
+ }
